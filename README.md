@@ -188,3 +188,7 @@ site/                     The macnosleep.com landing page
 - The private brightness APIs can change between macOS releases. If dimming stops working, the
   fallbacks in `BrightnessControl` are the place to look.
 - There is no auto-update mechanism. New versions have to be downloaded from the site.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
