@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MacNoSleep — Keep your Mac awake</title>
+<meta name="description" content="A tiny macOS menu bar utility that stops your Mac sleeping while builds, exports, downloads and remote sessions finish. Free, universal, macOS 14+.">
+<link rel="canonical" href="https://macnosleep.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://macnosleep.com/">
+<meta property="og:title" content="MacNoSleep — Keep your Mac awake">
+<meta property="og:description" content="A tiny macOS menu bar utility that stops your Mac sleeping while long-running work finishes.">
+<meta property="og:image" content="https://macnosleep.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/icon-64.png" sizes="64x64" type="image/png">
+<link rel="icon" href="/assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/">
+      <img src="/assets/icon-64.png" alt="" width="30" height="30">
+      <span>MacNoSleep</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-small" href="#download">Download</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">macOS menu bar utility</p>
+        <h1>Keep your Mac awake.</h1>
+        <p class="lead">
+          Builds compile, exports render, backups upload, remote sessions hold. MacNoSleep keeps
+          your Mac running until the work is done, then gets out of the way.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#download">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v9m0 0L4.5 6.5M8 10l3.5-3.5M2 13h12"/></svg>
+            Download for Mac
+          </a>
+          <a class="btn btn-ghost" href="#how">See how it works</a>
+        </div>
+        <p class="meta">Free · Universal (Apple&nbsp;Silicon &amp; Intel) · macOS&nbsp;14+ · <span id="size">1.4&nbsp;MB</span></p>
+      </div>
+
+      <div class="hero-shot">
+        <div class="shot-glow" aria-hidden="true"></div>
+        <img src="/assets/panel.png" alt="The MacNoSleep menu bar panel, showing the keep awake switch, display options and system options." width="644" height="932" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="wrap">
+      <h2 class="center">You can tell at a glance.</h2>
+      <p class="section-lead center">
+        The menu bar icon carries the state, so you never have to open anything to know whether a
+        session is running. It tints itself to match light menu bars, dark menu bars and highlights.
+      </p>
+
+      <dl class="states">
+        <div>
+          <dt>Hollow screen with z's</dt>
+          <dd>Your Mac is free to sleep, exactly as it normally would.</dd>
+        </div>
+        <div>
+          <dt>Solid screen</dt>
+          <dd>A session is running and your Mac is being held awake.</dd>
+        </div>
+        <div>
+          <dt>Warning mark</dt>
+          <dd>Paused, because the battery has fallen below your floor.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="wrap">
+      <p class="eyebrow center">Features</p>
+      <h2 class="center">Small, but not simplistic.</h2>
+      <p class="section-lead center">
+        Everything is one click away in the menu bar. There is no preferences window, no dock icon
+        and nothing to configure before it works.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Prevent idle sleep</h3>
+          <p>Holds the system awake so long-running work is never interrupted, however long it takes.</p>
+        </article>
+        <article class="card">
+          <h3>Allow lock &amp; sleep</h3>
+          <p>Let the display sleep and lock normally while the Mac keeps working underneath. Useful when you walk away.</p>
+        </article>
+        <article class="card">
+          <h3>Dim when idle</h3>
+          <p>Drop the backlight after 1, 5, 15 or 30 minutes without input, to any level you choose. It comes straight back on the next keypress.</p>
+        </article>
+        <article class="card">
+          <h3>Closed-lid operation</h3>
+          <p>Keep a laptop reachable for remote sessions and transfers with the lid shut.</p>
+        </article>
+        <article class="card">
+          <h3>Auto turn off</h3>
+          <p>End the session by itself after anywhere from 30 minutes to 12 hours, with the remaining time on screen.</p>
+        </article>
+        <article class="card">
+          <h3>Battery safety</h3>
+          <p>Pauses automatically when you are on battery and drop below your chosen floor, then resumes when you plug back in.</p>
+        </article>
+        <article class="card">
+          <h3>Launch at login</h3>
+          <p>Registers as a proper login item so your controls are ready as soon as you sign in.</p>
+        </article>
+        <article class="card">
+          <h3>Remembers where you left off</h3>
+          <p>A Mac that was awake when you quit comes back awake, with the same settings.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="section section-alt">
+    <div class="wrap">
+      <p class="eyebrow center">How it works</p>
+      <h2 class="center">Start the work. Flip the switch. Walk away.</h2>
+
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <h3>Start your build, transfer or session</h3>
+          <p>Anything that needs the machine to stay up.</p>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <h3>Turn on Keep Mac Awake</h3>
+          <p>One switch in the menu bar. Set an auto-off timer if you want a hard stop.</p>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <h3>Let it finish</h3>
+          <p>No babysitting power settings, and nothing left permanently changed afterwards.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="download" class="section">
+    <div class="wrap download">
+      <img src="/assets/icon-512.png" alt="" width="112" height="112">
+      <h2>Download MacNoSleep</h2>
+      <p class="section-lead">
+        Version <span id="version">1.0.0</span> · Universal binary · Requires macOS 14 Sonoma or later
+      </p>
+      <a class="btn btn-primary btn-large" href="/download/MacNoSleep.dmg" download>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v9m0 0L4.5 6.5M8 10l3.5-3.5M2 13h12"/></svg>
+        Download for Mac
+      </a>
+      <p class="note">
+        Signed with a Developer&nbsp;ID certificate and notarised by Apple, so it opens with a
+        normal double-click. Open the disk image and drag MacNoSleep to your Applications folder.
+      </p>
+    </div>
+  </section>
+
+  <section id="faq" class="section section-alt">
+    <div class="wrap narrow">
+      <p class="eyebrow center">FAQ</p>
+      <h2 class="center">Questions worth asking</h2>
+
+      <details>
+        <summary>Does it change my system settings?</summary>
+        <p>
+          Almost nothing. Keeping the Mac awake uses the power assertions macOS provides for exactly
+          this purpose, the same mechanism a video call or a long copy uses. They disappear the
+          moment you turn the session off or quit the app. You can see them yourself by running
+          <code>pmset -g assertions</code> in Terminal.
+        </p>
+        <p>
+          Closed-lid operation is the one exception, and it is described below.
+        </p>
+      </details>
+
+      <details>
+        <summary>Why does closed-lid mode ask for my password?</summary>
+        <p>
+          Running with the lid shut is not something an ordinary app is allowed to do. It maps to a
+          system-wide power setting, so MacNoSleep has to ask macOS for administrator approval to
+          change it.
+        </p>
+        <p>
+          Two things follow from that. The setting is global and survives quitting and rebooting;
+          MacNoSleep turns it back off when you quit, but if the app is force-killed you can clear
+          it yourself with <code>sudo pmset -a disablesleep 0</code>. And a closed laptop with no
+          external display has nowhere to put its heat, so a stand or an external monitor is a good
+          idea for long sessions.
+        </p>
+      </details>
+
+      <details>
+        <summary>Will it flatten my battery?</summary>
+        <p>
+          Not without warning. If you are on battery power and the charge falls to your chosen floor
+          — 5, 10, 15 or 20 percent — the session pauses on its own and the menu bar icon changes to
+          a warning. It picks back up when you plug in or charge above the threshold. You can also
+          turn the safety net off entirely if you would rather decide for yourself.
+        </p>
+      </details>
+
+      <details>
+        <summary>Does it collect any data?</summary>
+        <p>
+          No. There is no analytics, no telemetry, no accounts and no network access of any kind.
+          Your settings live in a preferences file on your own Mac. See the
+          <a href="/privacy.html">privacy policy</a>, which is short.
+        </p>
+      </details>
+
+      <details>
+        <summary>Is it signed and notarised?</summary>
+        <p>
+          Yes. The app is signed with a Developer&nbsp;ID certificate, built with the hardened
+          runtime, and the disk image has been notarised by Apple and stapled, so it opens with an
+          ordinary double-click and keeps working offline. You can check for yourself with
+          <code>spctl -a -vv /Applications/MacNoSleep.app</code>, which should report
+          <code>source=Notarized Developer ID</code>.
+        </p>
+      </details>
+
+      <details>
+        <summary>How do I uninstall it?</summary>
+        <p>
+          Quit it from the menu bar and drag the app to the Trash. If you had turned on closed-lid
+          mode, run <code>sudo pmset -a disablesleep 0</code> first so that setting goes back to
+          normal.
+        </p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="brand">
+      <img src="/assets/icon-64.png" alt="" width="26" height="26">
+      <span>MacNoSleep</span>
+    </div>
+    <nav class="footer-links">
+      <a href="/privacy.html">Privacy</a>
+      <a href="#faq">FAQ</a>
+      <a href="#download">Download</a>
+    </nav>
+    <p class="copyright">© <span id="year">2026</span> MacNoSleep. Not affiliated with Apple Inc.</p>
+  </div>
+</footer>
+
+<script src="/main.js" defer></script>
+</body>
+</html>

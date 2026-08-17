@@ -1,0 +1,6 @@
+build/
+.build/
+*.dSYM/
+.DS_Store
+site/download/*.dmg
+.wrangler/
